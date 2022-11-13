@@ -45,7 +45,8 @@ function App() {
       <div className="Routes"> 
 
      
-      <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src="../public/logo.png" alt="" className="LOGO" /></Link>
+      {/* <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src="../public/logo.png" alt="" className="LOGO" /></Link> */}
+      <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src={logo2} alt="" className="LOGO" /></Link>
       
       {!isAuth ? (
          <div className="login"> 
