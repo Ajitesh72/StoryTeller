@@ -42,7 +42,7 @@ function App() {
       
       <div className="Routes">
      
-      <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src="../public/Rectangle 6.png" alt="" className="LOGO" /></Link>
+      <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src="../public/logo.png" alt="" className="LOGO" /></Link>
       
       {!isAuth ? (
          <div className="login"> 
