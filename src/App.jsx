@@ -8,6 +8,8 @@ import Contactus from "./pages/Contactus";
 import { useState } from "react";
 import { signOut } from "firebase/auth";
 import { auth } from "./firebase-config";
+import logo2 from "./assets/Rectangle 6.png";
+
 
 
 
@@ -41,8 +43,8 @@ function App() {
       </div>
       
       <div className="Routes">
-     
-      <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src="../public/Rectangle 6.png" alt="" className="LOGO" /></Link>
+      {/* <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src="../public/logo.png" alt="" className="LOGO" /></Link> */}
+      <Link to="/" style={{textDecoration: "none",color:"whitesmoke"}}><img src={logo2} className="LOGO"/></Link>
       
       {!isAuth ? (
          <div className="login"> 

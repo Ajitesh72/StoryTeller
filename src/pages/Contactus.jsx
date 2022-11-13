@@ -5,6 +5,8 @@ import { addDoc, collection } from "firebase/firestore";
 import { db, auth } from "../firebase-config";
 import { useNavigate } from "react-router-dom";
 import { FaInstagramSquare,FaRedditSquare,FaGithubSquare,FaLinkedin } from "react-icons/fa";
+import logo from "../assets/newlogo.jpg";
+
 
 
 export default function CreatePost({ isAuth }){
@@ -37,7 +39,8 @@ export default function CreatePost({ isAuth }){
           <br/>
           <h1 className="Contactus_1_shy">DONT BE SHY</h1>
           <br/>
-          <img src="public\newlogo.jpg" alt="" className="Contactus_1_logo"/>
+          {/* <img src="public\newlogo.jpg" alt="" className="Contactus_1_logo"/> */}
+          <img src={logo} className="Contactus_1_logo"/>
           <br/>
           <h2 className="Contactus_1_hi">SAY HI</h2>
           <br/>
