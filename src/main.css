@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: "../public/download.jpg";
+    background-size: cover;
+    
+   
+}
+body{
+    margin:0
+}
+
+.login{
+    display: flex;
+    gap:150%;
+    margin-top: 20px;
+}
+
+.LOGO{
+    display: flex;
+    height:5rem;
+    width: 10rem;
+    padding: 5px;
+}
+
+.Navbar-header{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.Navbar{
+    background-color: #000000;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+    box-shadow: 0px 10px 0px 0 rgba(69, 83, 161, 0.166);
+}
+
+.Logout-btn{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: large;
+    background-color: red;
+}
+
+.Logout-btn:hover{
+    background-color: #F6BCFF;
+    cursor: pointer;
+}
+
+.login-with-google-btn{
+  background-color: #6a9ac4;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(147, 68, 68);
+
+}
+
+.Routes{
+    display: flex;
+    justify-content: flex-start;
+    gap:15%;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 130%;
+}
+
+.route_Text{
+    color:#539DE0;
+
+}
+.route_Text:hover{
+    text-decoration: dashed;
+    text-decoration-color: white;
+    color: whitesmoke;
+}
+.route_Text:active{
+    text-decoration: dashed;
+    text-decoration-color: white;
+    color: palevioletred;
+}
+
+
+
+/* //SIGNIN PAGE// */
+.SignInPage{
+    display:grid;
+    
+    
+    
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding-top: 10%;
+}
+
+/* //Create a Post// */
+
+textarea {
+    resize: none;
+  }
+
+.createPostPage{
+    display:flex;
+    justify-content: center;
+    margin-right: 35%;
+    /* background-color: #0c23196b; */
+}
+.cpContainer{
+    padding:5% 5%;
+    border-radius: 5%;
+    margin-left: 25%;
+    background-color: #975bfe;
+    opacity: 0.6;
+    box-shadow: 15px 15px 5px rgb(0, 0, 0);
+}
+
+.title-header{
+    color: darkblue;
+}
+
+.writer_text{
+    padding: 5% 0 0 0%;
+    font-family: 'Bentham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150%; 
+   
+    background: -webkit-linear-gradient(#1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.SubmitPost{
+    margin-left: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:3%;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+.SubmitPost:hover{
+    background-color: rgb(249, 6, 225);
+}
+
+.extra_css_createpost{
+    color:rgb(50, 58, 45);
+    /* font-weight:lighter; */
+    font-style: italic;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.writer_text_2{
+    padding: 1% 0 0 55%;
+    font-family: 'Bentham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%; 
+
+   
+    background: -webkit-linear-gradient(#1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* //HOME// */
+
+.post{
+    margin:0;
+    /* padding:10%; */
+    padding:3% 1% 1% 7%;
+    
+    display: grid;
+    width: 85%;
+    
+   
+}
+
+
+.xyz{
+    border-radius: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    background: rgba(52, 99, 220, 0.3);
+    box-shadow: 0px 5px 5px rgb(0, 42, 255);
+    padding:1%;
+}
+
+.deletepost{
+    padding:5px;
+    border-radius: 3px;
+    border: none;
+}
+
+
