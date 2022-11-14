@@ -1,9 +1,9 @@
 # StoryTeller
 
-StoryTeller is a web-application to add,read and delete stories after Signin-in using Goggle account
+StoryTeller is a web-application to add,read and delete stories after Signin-in using Goggle account<br/>
 Tech Stack used:React.js,Firebase,Vite
-Link:- https://storyteller-community.netlify.app/
-This project won the most Creatibve project in hackathon CodeConcode organize by DevPost
+Link:- https://storyteller-community.netlify.app/ (Currently not responsive) <br/>
+This project won the most Creative project in hackathon CodeConcode organized by DevPost.
 
 Screenshots:-
 
